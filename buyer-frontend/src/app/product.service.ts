@@ -6,6 +6,6 @@ import 'rxjs/add/operator/map';
 export class ProductService {
   constructor(private _http: Http) { }
   index() {
-    return this._http.get('api/products').map(r => r.json();
+    return this._http.get('api/products').map(r => r.json());
   }
 }
